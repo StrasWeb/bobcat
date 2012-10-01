@@ -1,0 +1,16 @@
+Source: bobcat
+Section: web
+Priority: extra
+Maintainer: Pierre Rudloff <rudloff@strasweb.fr>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, seed, autoconf, automake
+Standards-Version: 3.9.2
+Homepage: http://cms.strasweb.fr/
+Vcs-Svn: https://code.google.com/p/chaton-cms/source/browse/#svn%2Fbranches%2Fbobcat
+Vcs-Browser: http://chaton-cms.googlecode.com/svn/branches/bobcat
+
+Package: bobcat
+Architecture: all
+Depends: ${misc:Depends}, seed
+Description: GTK admin tool for Chaton CMS
+ Bobcay is GTK admin tool for Chaton CMS
+ Chaton is a very simple and lightweight CMS build with PHP5.
